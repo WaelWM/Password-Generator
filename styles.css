@@ -1,0 +1,102 @@
+body {
+    background: radial-gradient(#000000, #434343);
+    background-repeat: no-repeat;
+    background-size: 100rem 100rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background: #EBF8F4;
+    border-radius: 25px;
+    border: 3px solid rgba(33, 7, 62, 0.838);
+    box-shadow: 1px 1px 5px 0 10px 20px rgba(181, 5, 5, 0.541);
+    padding: 20px;
+}
+
+.generate-pass {
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+
+.generate-pass input {
+    
+    border: 1px solid rgba(225, 4, 4, 0.838);
+    border-radius: 30px;
+    padding: 15px 25px;
+    color: #5b0505;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.generate-pass .copy {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 18px;
+    fill: #878787;
+}
+
+.inputs {
+    font-size: 25px;
+    width: 80%;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.inputs :nth-child(5) {
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+}
+
+label,
+.input-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: flex;
+    gap: 20px;
+}
+
+label input {
+    pointer-events: none;
+}
+
+.slider-container {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.slider {
+    width: 100%;
+    height: 15px;
+    margin-top: 5px;
+}
+
+.slider::-webkit-slider-thumb {
+    cursor: pointer;
+}
+
+button {
+    background: #121783bb;
+    color: #FFF;
+    margin-top: 4rem;
+    margin-left: -2.5rem;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    width: 130%;
+    height: 40px;
+}
