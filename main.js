@@ -3,7 +3,7 @@ const flags = {
     numbers: false,
     symbols: false,
     space: false,
-    length: 5
+    length: 8
 }
 
 const selectors = {
@@ -48,6 +48,7 @@ document.querySelector('#app').addEventListener('click', event => {
             dummy.select()
 
             document.execCommand('copy')
+            alert("Generated Password Copied!")
             document.body.removeChild(dummy)
         break;
 
